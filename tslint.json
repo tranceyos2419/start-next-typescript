@@ -1,7 +1,33 @@
 {
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "rulesDirectory": [
+    "tslint-plugin-prettier"
+  ],
   "rules": {
-    "semicolon": [false, "never"],
-    "quotemark": [true, "single", "jsx-double"],
-    "indent": [true, "spaces", 2]
+    // "prettier": true,
+    "member-acess": false,
+    "interface-name": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "jsx-boolean-value": false,
+    "no-console": false,
+    "semicolon": [
+      false,
+      "never"
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "indent": [
+      true,
+      "spaces",
+      2
+    ]
   }
 }

@@ -1,7 +1,6 @@
 import * as React from 'react'
 import * as classnames from 'classnames'
 import * as css from './Home.css'
-import Auto from './Auto';
 
 export const Home: React.FunctionComponent = props =>
   <div className={classnames('test', css.home)}>
